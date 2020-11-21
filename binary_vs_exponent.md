@@ -21,7 +21,7 @@ Got most of my understanding from the links below:
 <p>====================</p>
 <ul>
 <li>A). We can crosse out the option A since both of the searching methods rely on the array to be sorted.</li>
-<li>b). To be more precise, if the returned index is less than Math.floor(Math.sqrt(arr.length)), exponential would be faster than binary search.</li>
+<li>B). To be more precise, if the returned index is less than Math.floor(Math.sqrt(arr.length)), exponential would be faster than binary search.</li>
 <li>C). As for option C, a bounded array provides an advantage when resizing. While it's efficinet, it won't offer advantage to neither methods.</li>
 <li>D). Random access would boost up the speed of both search methods while sequential access could provide some advantage to the exponential search.</li>
 </ul>
