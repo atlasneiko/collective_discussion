@@ -9,13 +9,16 @@ When searching a sorted array, in which scenario would exponential search likely
 <li>D). The array supports random access.</li>
 </ul>
 <br />
+
 Got most of my understanding from the links below:
 
 <ul>
  <li><a href="https://stackoverflow.com/questions/52844293/exponential-search-vs-binary-search">learn about the difference between binary and exponential search methods</a></li>
  <li><a href="https://www.boost.org/doc/libs/1_40_0/libs/numeric/ublas/doc/bounded_array.htm">learn about bounded array</a></li>
  <li><a href="https://stackoverflow.com/questions/43126147/random-access-in-array">What's random access for an array</a></li>
-<ul>
+</ul>
+
+
 <ul>
 <li>A). We can crosse out the option A since both of the searching methods rely on the array to be sorted.</li>
 <li>b). To be more precise, if the returned index is less than Math.floor(Math.sqrt(arr.length)), exponential would be faster than binary search.</li>
